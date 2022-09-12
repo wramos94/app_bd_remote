@@ -11,53 +11,59 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="119dp"
-        android:layout_height="18dp"
+        android:layout_width="142dp"
+        android:layout_height="41dp"
         android:text="@string/user_blank_fragment"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.154"
+        app:layout_constraintHorizontal_bias="0.364"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.148" />
+        app:layout_constraintVertical_bias="0.14"
+        android:autoSizeTextType="uniform" />
 
     <TextView
         android:id="@+id/ttxtpwd"
-        android:layout_width="123dp"
-        android:layout_height="33dp"
+        android:layout_width="142dp"
+        android:layout_height="41dp"
         android:text="@string/pwd_blank_fragment"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.142"
+        app:layout_constraintHorizontal_bias="0.359"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.255" />
-
-    <EditText
-        android:id="@+id/txtpwd"
-        android:layout_width="199dp"
-        android:layout_height="46dp"
-        android:ems="10"
-        android:inputType="textPassword"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.879"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.259" />
+        app:layout_constraintVertical_bias="0.38"
+        android:autoSizeTextType="uniform" />
 
     <EditText
         android:id="@+id/txtuser"
-        android:layout_width="191dp"
-        android:layout_height="43dp"
+        android:layout_width="223dp"
+        android:layout_height="70dp"
+        android:autofillHints=""
         android:ems="10"
+        android:hint="@string/Descripcion"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toTopOf="@+id/txtpwd"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.881"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.71" />
+        app:layout_constraintVertical_bias="0.601"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <EditText
+        android:id="@+id/txtpwd"
+        android:layout_width="223dp"
+        android:layout_height="70dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/Descripcion2"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
 
     <Button
         android:id="@+id/btnsesion"
@@ -66,9 +72,9 @@
         android:text="@string/sesion_blank_fragment"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.58"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.468" />
+        app:layout_constraintVertical_bias="0.673" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

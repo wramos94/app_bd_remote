@@ -1,10 +1,13 @@
 <resources>
-    <string name="app_name">bd</string>
+    <string name="app_name">Login</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="user_blank_fragment">Usuario:</string>
     <string name="pwd_blank_fragment">Contraseña:</string>
     <string name="sesion_blank_fragment">Iniciar Sesión</string>
     <string name="wellcome_MainAct2">¡Bienvenido!</string>
+    <string name="Contraseña">Contraseña</string>
+    <string name="Descripcion">Introduzca su usuario...</string>
+    <string name="Descripcion2">Introduzca su contraseña…</string>
 
 
 </resources>
