@@ -80,8 +80,8 @@ public class SesionFragment extends Fragment implements Response.Listener<JSONOb
 
     }
     void iniciarSesion(){
-        String url ="http://192.168.1.5/login/sesion.php?user="+txtUser.getText().toString()+
-          "&pwd="+txtPwd.getText().toString();
+        String url ="https://waramos.000webhostapp.com/sesion.php?user="+txtUser.getText().toString()+
+                "&pwd="+txtPwd.getText().toString();
         jrq = new JsonObjectRequest(Request.Method.GET,url, (String) null,this, this);
         rq.add(jrq);
     }
