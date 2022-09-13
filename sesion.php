@@ -1,6 +1,6 @@
 <?PHP
 $hostname="localhost";
-$database="test";
+$database="usuarios";
 $username="root";
 $password="";
 
@@ -11,7 +11,7 @@ $json=array();
 		
 		$conexion=mysqli_connect($hostname,$username,$password,$database);
 		
-		$consulta="SELECT user, pwd, names FROM users WHERE user= '{$user}' AND pwd = '{$pwd}'";
+		$consulta="SELECT users, password, names FROM usuarios WHERE users= '{$user}' AND password = '{$pwd}'";
 		$resultado=mysqli_query($conexion,$consulta);
 
 		if($consulta){

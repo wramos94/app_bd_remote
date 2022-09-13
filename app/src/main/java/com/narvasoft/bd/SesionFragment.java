@@ -23,7 +23,6 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-//import com.android.volley.Response;
 
 public class SesionFragment extends Fragment implements Response.Listener<JSONObject>, Response.ErrorListener {
     RequestQueue rq;
@@ -81,7 +80,7 @@ public class SesionFragment extends Fragment implements Response.Listener<JSONOb
 
     }
     void iniciarSesion(){
-        String url ="http://192.168.1.2/login/sesion.php?user="+txtUser.getText().toString()+
+        String url ="http://192.168.1.5/login/sesion.php?user="+txtUser.getText().toString()+
           "&pwd="+txtPwd.getText().toString();
         jrq = new JsonObjectRequest(Request.Method.GET,url, (String) null,this, this);
         rq.add(jrq);
